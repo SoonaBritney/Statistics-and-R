@@ -26,3 +26,10 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 ### Summary
 - Load, clean up, and reshape datasets using tidyverse in R.
 The tidyverse package contains libraries such as dplyr, tidyr, and ggplot2. These packages work together to help simplify the process of creating transformed data columns, grouping data using factors, reshaping our two-dimensional data structures, and visualizing our results using plots.
+
+install.packages("tidyverse")
+
+install.packages("jsonlite")
+
+library("tidyverse")
+
