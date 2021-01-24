@@ -6,6 +6,7 @@
 
 MechaCar_MPG_Table <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
 View(MechaCar_MPG_Table)
+
 # Use tidyverse's dplyr library to transforms R data.
 library("tidyverse")
 
@@ -56,54 +57,50 @@ plt6 + geom_point() + geom_line(aes(y=MPG_yvals6), color = "red") #plot scatter 
 
 
 
+
 # Deliverable 2
+
+library(tidyverse)
 
 # Suspension Coil Summary
 # We created a summary statistics table for the suspension coil's pounds-per-inch continuous variable.
 # PSI = pound per square inch in Tire
 Suspension_Coil_Table <- read.csv(file='Suspension_coil.csv',check.names=F,stringsAsFactors = F)
 View(Suspension_Coil_Table)
-# group by PSI
-Summary_Statistics_Table <- Suspension_Coil_Table %>% group_by(PSI) %>% summarize(Mean= mean(Suspension_Coil_Table$PSI), Median= median(Suspension_Coil_Table$PSI), Variance= var(Suspension_Coil_Table$PSI), Standard_Deviation= sd(Suspension_Coil_Table$PSI))
-View(Summary_Statistics_Table)
 
-# group by Manufacturing_Lot - Q2 ???? per Lot???
-#Summary_Statistics_Table2 <- Suspension_Coil_Table %>% group_by(Manufacturing_Lot) %>% summarize(Mean= mean(Suspension_Coil_Table$Manufacturing_Lot), Median= median(Suspension_Coil_Table$Manufacturing_Lot), Variance= var(Suspension_Coil_Table$Manufacturing_Lot), Standard_Deviation= sd(Suspension_Coil_Table$Manufacturing_Lot))
-Summary_Statistics_Table2 <- Suspension_Coil_Table %>% group_by(Manufacturing_Lot) %>% summarize(Mean= mean(Suspension_Coil_Table$PSI), Median= median(Suspension_Coil_Table$PSI), Variance= var(Suspension_Coil_Table$PSI), Standard_Deviation= sd(Suspension_Coil_Table$PSI))
-View(Summary_Statistics_Table2)
+# total summary
+total_summary <- Suspension_Coil_Table %>% summarize(Mean= mean(Suspension_Coil_Table$PSI), Median= median(Suspension_Coil_Table$PSI), Variance= var(Suspension_Coil_Table$PSI), Standard_Deviation= sd(Suspension_Coil_Table$PSI))
+View(total_summary)
 
-# filter PSI > 15000, and see the statistical summary
-Suspension_Coil_PSI_1500_Table <- Suspension_Coil_Table[Suspension_Coil_Table$PSI > 1500,]
-Summary_Statistics_PSI_1500_Table <- Suspension_Coil_PSI_1500_Table %>% group_by(Manufacturing_Lot) %>% summarize(Mean= mean(Suspension_Coil_PSI_1500_Table$PSI), Median= median(Suspension_Coil_PSI_1500_Table$PSI), Variance= var(Suspension_Coil_PSI_1500_Table$PSI), Standard_Deviation= sd(Suspension_Coil_PSI_1500_Table$PSI))
-View(Summary_Statistics_PSI_1500_Table)
-
-summarize_Suspension_Coil_PSI_1500_Table <- Suspension_Coil_PSI_1500_Table %>% group_by(Manufacturing_Lot) %>% summarize(Mean_PSI=mean(PSI), Median= median(Suspension_Coil_PSI_1500_Table$PSI).groups = 'keep') #create summary table
-
-#PSI > 1500
-Suspension_Coil_PSI_Lot_Table <- Suspension_Coil_Table[Suspension_Coil_Table$PSI > 1500,]
-
-?subset()
-# PSI > 1500, Lot1
-#filter_Suspension_Coil_PSI_Lot1 <- subset(Suspension_Coil_Table, PSI > 1500 & Manufacturing_Lot == "Lot1" & "clean" %in% title_status) #filter by PSI and Lot
-filter_Suspension_Coil_PSI_Lot1 <- subset(Suspension_Coil_Table, PSI > 1500 & Manufacturing_Lot == "Lot1") #filter by price and drivetrain
-
-filter_table3 <- demo_table2[("clean" %in% demo_table2$title_status) & (demo_table2$price > 10000) & (demo_table2$drive == "4wd"),]
-filter_Suspension_Coil1 <- subset(Suspension_Coil_Table, Manufacturing_Lot  == "Lot1" & "clean" %in% title_status) #filter by price and drivetrain
+#lot summary group by Manufacturing_Lot, but each rows shows the same data of total_summary???
+lot_summary_test <- Suspension_Coil_Table %>% group_by(Manufacturing_Lot) %>% summarize(Mean= mean(Suspension_Coil_Table$PSI), Median= median(Suspension_Coil_Table$PSI), Variance= var(Suspension_Coil_Table$PSI), Standard_Deviation= sd(Suspension_Coil_Table$PSI))
+View(lot_summary_test)
 
 
-filter_table3 <- demo_table2[("clean" %in% demo_table2$title_status) & (demo_table2$price > 10000) & (demo_table2$drive == "4wd"),]
-View(Suspension_Coil_PSI_Lot_Table)
+# So, I tried to use filter & subset() to create sub sets
+filter_Lot1 <- subset(Suspension_Coil_Table, Manufacturing_Lot == "Lot1")
+filter_Lot2 <- subset(Suspension_Coil_Table, Manufacturing_Lot == "Lot2")
+filter_Lot3 <- subset(Suspension_Coil_Table, Manufacturing_Lot == "Lot3")
 
-library(tidyverse)
-?mutate()
+# calculate the each lot's mean, median,variance, sd 
+Summary_Lot1 <- filter_Lot1 %>% group_by(Manufacturing_Lot) %>% summarize(Mean= mean(filter_Lot1$PSI), Median= median(filter_Lot1$PSI), Variance= var(filter_Lot1$PSI), Standard_Deviation= sd(filter_Lot1$PSI))
+Summary_Lot2 <- filter_Lot2 %>% group_by(Manufacturing_Lot) %>% summarize(Mean= mean(filter_Lot2$PSI), Median= median(filter_Lot2$PSI), Variance= var(filter_Lot2$PSI), Standard_Deviation= sd(filter_Lot2$PSI))
+Summary_Lot3 <- filter_Lot3 %>% group_by(Manufacturing_Lot) %>% summarize(Mean= mean(filter_Lot3$PSI), Median= median(filter_Lot3$PSI), Variance= var(filter_Lot3$PSI), Standard_Deviation= sd(filter_Lot3$PSI))
 
-Suspension_Coil_Table2 <- Suspension_Coil_Table %>% mutate(Mileage_per_Year=Total_Miles/(2020-Year),IsActive=TRUE) #add columns to original data frame
 
-total_summary <- Suspension_Coil_Table2 %>% group_by(condition) %>% summarize(Mean_Mileage=mean(odometer), .groups = 'keep') #create summary table
+# merging 3 lots summary using rbind()
 
-lot_summary <- Suspension_Coil_Table2 %>% group_by(Manufacturing_Lots) %>% summarize(Mean= mean(Suspension_Coil_Table$PSI), .groups = 'keep') #create summary table
+lot_summary <- rbind(Summary_Lot1, Summary_Lot2, Summary_Lot3)
+view(lot_summary)
+
+
+
 
 # Deliverable 3 - # Suspension Coil T-Test
+
+# QQQ: is PSI >1500 is sample ???
+
+
 # We determined if the suspension coil's pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch.
 # Generating samples using random sampling
 population_table <- read.csv('Suspension_Coil.csv',check.names = F,stringsAsFactors = F) #import dataset
@@ -123,15 +120,29 @@ sample_table <- population_table %>% sample_n(50) #generate 50 randomly sampled 
 sample_table2 <- population_table %>% sample_n(50) #generate another 50 randomly sampled data
 t.test((sample_table$PSI),(sample_table2$PSI)) #compare means of two samples
 
-# 
-filter_table <- demo_table2[demo_table2$price > 10000,]
+# lot1 data
+t.test((sample_table$PSI),mu=mean(population_table$PSI)) #compare sample versus population means
 
-?subset()
+# PSI > 1500 filter
+filter_population_table <- subset(Suspension_Coil_Table, PSI > "1500")
 
-filter_table2 <- subset(demo_table2, price > 10000 & drive == "4wd" & "clean" %in% title_status) #filter by price and drivetrain
 
+# Welch One Sample t-test
+#total
+t.test((sample_table$PSI),mu=mean(population_table$PSI)) #compare sample versus population means
+t.test((sample_table$PSI),mu=mean(filter_population_table$PSI)) #compare sample versus filtered population PSI > 1500
 
-filter_table3 <- demo_table2[("clean" %in% demo_table2$title_status) & (demo_table2$price > 10000) & (demo_table2$drive == "4wd"),]
+# Lot 1
+t.test((filter_Lot1$PSI),mu=mean(population_table$PSI)) #compare lot1 versus population means
+t.test((filter_Lot1$PSI),mu=mean(filter_population_table$PSI)) #compare lot1 versus filtered population PSI > 1500
 
-# Deliverable 4
-# MechaCar to the Competition Analysis
+# Lot 2
+t.test((filter_Lot2$PSI),mu=mean(population_table$PSI)) #compare lot2 versus population means
+t.test((filter_Lot2$PSI),mu=mean(filter_population_table$PSI)) #compare lot2 versus filtered population PSI > 1500
+
+# Lot 3
+t.test((filter_Lot3$PSI),mu=mean(population_table$PSI)) #compare lot3 versus population means
+t.test((filter_Lot3$PSI),mu=mean(filter_population_table$PSI)) #compare lot3le versus filtered population PSI > 1500
+
+# Deliverable 4: Design a Study Comparing the MechaCar to the Competition
+
