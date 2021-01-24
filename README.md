@@ -46,6 +46,14 @@ library(jsonlite)
 
 ![6 variables lineer regression summary](https://github.com/SoonaBritney/Statistics-and-R/blob/main/2_multiple_linear_model_summary.JPG)
 
+![scatter plot - vehicle length](https://github.com/SoonaBritney/Statistics-and-R/blob/main/scatterplot_vehicle_length.JPG)
+
+![scatter plot - vehicle weight](https://github.com/SoonaBritney/Statistics-and-R/blob/main/scatterplot_vehicle_weight.JPG)
+![scatter plot - spolier angle](https://github.com/SoonaBritney/Statistics-and-R/blob/main/scatterplot_vehicle_spoiler_angle.JPG)
+![scatter plot - grund clearance](https://github.com/SoonaBritney/Statistics-and-R/blob/main/scatterplot_ground_clearance.JPG)
+![scatter plot - AWD](https://github.com/SoonaBritney/Statistics-and-R/blob/main/scatterplot_AWD.JPG)
+![scatter plot - mpg](https://github.com/SoonaBritney/Statistics-and-R/blob/main/scatterplot_mpg.JPG)
+
 ### Deliverable 2: Summary Statistics on Suspension Coils
 
 ### Deliverable 3: T-Test on Suspension Coils
