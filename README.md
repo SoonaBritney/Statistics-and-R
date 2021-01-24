@@ -59,10 +59,10 @@ The tidyverse package contains libraries such as dplyr, tidyr, and ggplot2. Thes
 ### Deliverable 2: Summary Statistics on Suspension Coils
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots.
 - Total Summary
-![total_summary](https://github.com/SoonaBritney/Statistics-and-R/blob/main/total_summary.JPG)
+- ![total_summary](https://github.com/SoonaBritney/Statistics-and-R/blob/main/total_summary.JPG)
 
 - Lot_Summary per Lot
-![lot_summary](https://github.com/SoonaBritney/Statistics-and-R/blob/main/lot_summary.JPG)
+- ![lot_summary](https://github.com/SoonaBritney/Statistics-and-R/blob/main/lot_summary.JPG)
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
