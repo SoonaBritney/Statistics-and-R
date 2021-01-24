@@ -127,5 +127,5 @@ Using R, perform t-tests to determine if all manufacturing lots and each lot ind
    - We will use the reliable data source to statistically analize the MechaCar Vehicles against other vehicles. 
    - We can pull the KBB data by using web scrapping technics we learned Module 10: Mission to Mars - Web Scraping with HTML/CSSchapter
    - Or we can use the KBB database for developers (http://developer.kbb.com/). KBB Developer's database is offering API, or web service, so we can easily to connect and pull the data for our R statistics analysis.
-   - 
+   - We will randomizer the data, and use the ANOVA, Multiple Linear Regression, and Chi-Squared Test per category against multiple manufactures, vehicles.
 
