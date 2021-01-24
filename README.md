@@ -43,4 +43,15 @@ library(jsonlite)
 
 ### Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 
+1. Study Object: To design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+2. Metrics: The metrics are a statistical study that can quantify how the MechaCar performs against the competition. The metrics are:
+   (1) cost, 
+   (2) city or highway fuel efficiency, 
+   (3) horse power, 
+   (4) maintenance cost, 
+   (5) safety rating
+3. What metric or metrics are you going to test?
+- What is the null hypothesis or alternative hypothesis?
+- What statistical test would you use to test the hypothesis? And why?
+- What data is needed to run the statistical test?   
 
