@@ -37,6 +37,15 @@ library(jsonlite)
 
 ### Deliverable 1: Linear Regression to Predict MPG
 
+1. Scope: Used the library("tidyverse") to load the dpylr package.
+2. Import and read the MechaCar_mpg.csv
+3. Perform the Perform linear regression using the lm() function. In the lm() function, pass in all six variables (i.e., columns), and add the dataframe you created above as the data parameter.
+4. Using the summary() function, determine the p-value and the r-squared value for the linear regression model.
+
+![linear regression summary](https://github.com/SoonaBritney/Statistics-and-R/blob/main/1_multiple_linear_model.JPG)
+
+![6 variables lineer regression summary](https://github.com/SoonaBritney/Statistics-and-R/blob/main/2_multiple_linear_model_summary.JPG)
+
 ### Deliverable 2: Summary Statistics on Suspension Coils
 
 ### Deliverable 3: T-Test on Suspension Coils
