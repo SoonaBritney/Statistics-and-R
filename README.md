@@ -75,6 +75,27 @@ _
 ### Deliverable 3: T-Test on Suspension Coils
 Using R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
+1. T-Test sample data vs. population
+   ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_sample_population_comparison.JPG)
+2. T-Test sample data vs. filted population (PSI > 1500)
+   ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_sample_filter_population_comparison.JPG)   
+   ![T-Test sample random](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T_Test_Random_Sample_Suspension_Coils_Table.JPG)
+   
+3. T-Test Lot1 data vs. population
+   ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot1_population_comparison.JPG)
+4. T-Test sample data vs. filted population (PSI > 1500)
+   ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot1_filter_population_comparison.JPG)   
+   
+5. T-Test Lot2 data vs. population
+   ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_sample_population_comparison.JPG)
+6. T-Test sample data vs. filted population (PSI > 1500)
+   ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_sample_filter_population_comparison.JPG)   
+   
+7. T-Test Lot3 data vs. population
+   ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot3_population_comparison.JPG)
+8. T-Test sample data vs. filted population (PSI > 1500)
+   ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot3_filter_population_comparison.JPG)      
+
 ### Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 
 1. Study Object: To design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
