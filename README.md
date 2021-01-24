@@ -33,7 +33,7 @@ The tidyverse package contains libraries such as dplyr, tidyr, and ggplot2. Thes
 2. Import and read the MechaCar_mpg.csv
 3. Perform the Perform linear regression using the lm() function. In the lm() function, pass in all six variables (i.e., columns), and add the dataframe you created above as the data parameter.
 4. Using the summary() function, determine the p-value and the r-squared value for the linear regression model.
-5. Findings: Vehicles length, weight, and ground cleanrance is postivly corelated with mpg. Although, Sploiler Angle, and AWD are negativly related to mpg.  
+5. Findings: Vehicles length, weight, and ground cleanrance is postivly corelated with mpg. Although, Sploiler Angle, and AWD are negativly related to mpg.  It means, we can predict hifger mpg performance when the length of the vehicle is longer, the weight of the vehicle is heavier, and the gound clearnace of the vehicle is bigger.
 
 ![linear regression summary](https://github.com/SoonaBritney/Statistics-and-R/blob/main/1_multiple_linear_model.JPG)
 
