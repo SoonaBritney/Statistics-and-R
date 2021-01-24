@@ -128,7 +128,7 @@ Using R, perform t-tests to determine if all manufacturing lots and each lot ind
   - Ha: The alternate hypothesis is also known as Ha and is generally the hypothesis that is influenced by non-random events.
   - **Alternative hypothesisa: MechaCar is NOT manufacturing excellent cars, so the mean of the follwoing variable is not above the total mean against all the vehicles out there on (1) cost, (2) city or highway fuel efficiency, (3) horse power, (4) maintenance cost, (5) safety rating, (6) Residual MechaCar vehicles Value after 3 years**  
 
-      H0 : PH = 0.5
+      H0 : PH = 0.5,
       Ha : PH ≠ 0.5
       
 - We will follow Hypothesis Testing in Five Stepsas below. 
