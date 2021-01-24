@@ -116,8 +116,13 @@ Using R, perform t-tests to determine if all manufacturing lots and each lot ind
 - What is the null hypothesis or alternative hypothesis?
   - H0:
   - H1:
-- What statistical test would you use to test the hypothesis? And why?
-   -
+- What statistical test would you use to test the hypothesis? And why? 
+   - Since MechCar Vehicle will be compared with many different vechicle manufactors' in different category (e.g. sedan, SUV, truck, etc.) we should use
+   - ANOVA
+   - Multiple Linear Regression
+   - Chi-Squared Test
+   - ![selecting appropiate statistics](https://github.com/SoonaBritney/Statistics-and-R/blob/main/Capture_selecting_appropriate_statistics.JPG)
+
 - What data is needed to run the statistical test?  
    - We will use the reliable data source to statistically analize the MechaCar Vehicles against other vehicles. 
    - We can pull the KBB data by using web scrapping technics we learned Module 10: Mission to Mars - Web Scraping with HTML/CSSchapter
