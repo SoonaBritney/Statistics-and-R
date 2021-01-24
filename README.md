@@ -123,10 +123,10 @@ Using R, perform t-tests to determine if all manufacturing lots and each lot ind
 
 - What is the null hypothesis or alternative hypothesis?
   - H0: The null hypothesis is also known as H0 and is generally the hypothesis that can be explained by random chance.
-  - **Null Hypothesis: MechaCar Vehicle is excellent car, so the mean of the follwoing variable is above the total mean on (1) cost, (2) city or highway fuel efficiency, (3) horse power, (4) maintenance cost, (5) safety rating, (6) Residual MechaCar vehicles Value after 3 years**  
+  - **Null Hypothesis: MechaCar is manufacturing excellent cars, so the mean of the follwoing variable is above the total mean against all the vehicles out there on (1) cost, (2) city or highway fuel efficiency, (3) horse power, (4) maintenance cost, (5) safety rating, (6) Residual MechaCar vehicles Value after 3 years**  
   
   - Ha: The alternate hypothesis is also known as Ha and is generally the hypothesis that is influenced by non-random events.
-  - **Alternative hypothesisa: MechaCar Vehicle is excellent car, so the mean of the follwoing variable is above the total mean on (1) cost, (2) city or highway fuel efficiency, (3) horse power, (4) maintenance cost, (5) safety rating, (6) Residual MechaCar vehicles Value after 3 years**  
+  - **Alternative hypothesisa: MechaCar is NOT manufacturing excellent cars, so the mean of the follwoing variable is not above the total mean against all the vehicles out there on (1) cost, (2) city or highway fuel efficiency, (3) horse power, (4) maintenance cost, (5) safety rating, (6) Residual MechaCar vehicles Value after 3 years**  
 
 - We will follow Hypothesis Testing in Five Stepsas below. 
    1. Generate a null hypothesis, its corresponding alternate hypothesis, and the significance level.
@@ -145,5 +145,5 @@ Using R, perform t-tests to determine if all manufacturing lots and each lot ind
    - We will use the reliable data source to statistically analize the MechaCar Vehicles against other vehicles. 
    - We can pull the KBB data by using web scrapping technics we learned Module 10: Mission to Mars - Web Scraping with HTML/CSSchapter
    - Or we can use the KBB database for developers (http://developer.kbb.com/). KBB Developer's database is offering API, or web service, so we can easily to connect and pull the data for our R statistics analysis.
-   - We will randomizer the data, and use the ANOVA, Multiple Linear Regression, and Chi-Squared Test per category against multiple manufactures, vehicles.
+   - We will randomizer the data, and use the ANOVA, Multiple Linear Regression, and Chi-Squared Test per category against multiple manufactures, vehicles, and compare p-values.
 
