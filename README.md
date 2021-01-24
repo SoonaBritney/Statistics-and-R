@@ -61,36 +61,11 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 - Total Summary: mean:1498.78, mdean:1500, variance:62.29356, standard veviation:7.892627
 - ![total_summary](https://github.com/SoonaBritney/Statistics-and-R/blob/main/total_summary.JPG)
 
-- Lot_Summary per Lot: compared to the total_summary, the LOT3 statistics shows the bigger variance, and standard deviation, which means the vehicles manufactuued from Lot 3 has incosistent quality   
+- Lot_Summary per Lot: compared to the total_summary, the LOT3 statistics shows the bigger variance, and standard deviation, which means the vehicles manufactured from Lot 3 has incosistent quality   
    - To calculate the Lot Summary per Lot, we used the filter, subset(), and rbind technics in R statistics.
-   - # PSI = pound per square inch in Tire
-Suspension_Coil_Table <- read.csv(file='Suspension_coil.csv',check.names=F,stringsAsFactors = F)
-View(Suspension_Coil_Table)
-
-# total summary
-total_summary <- Suspension_Coil_Table %>% summarize(Mean= mean(Suspension_Coil_Table$PSI), Median= median(Suspension_Coil_Table$PSI), Variance= var(Suspension_Coil_Table$PSI), Standard_Deviation= sd(Suspension_Coil_Table$PSI))
-View(total_summary)
-
-#lot summary group by Manufacturing_Lot, but each rows shows the same data of total_summary???
-lot_summary_test <- Suspension_Coil_Table %>% group_by(Manufacturing_Lot) %>% summarize(Mean= mean(Suspension_Coil_Table$PSI), Median= median(Suspension_Coil_Table$PSI), Variance= var(Suspension_Coil_Table$PSI), Standard_Deviation= sd(Suspension_Coil_Table$PSI))
-View(lot_summary_test)
-
-
-# So, I tried to use filter & subset() to create sub sets
-filter_Lot1 <- subset(Suspension_Coil_Table, Manufacturing_Lot == "Lot1")
-filter_Lot2 <- subset(Suspension_Coil_Table, Manufacturing_Lot == "Lot2")
-filter_Lot3 <- subset(Suspension_Coil_Table, Manufacturing_Lot == "Lot3")
-
-# calculate the each lot's mean, median,variance, sd 
-Summary_Lot1 <- filter_Lot1 %>% group_by(Manufacturing_Lot) %>% summarize(Mean= mean(filter_Lot1$PSI), Median= median(filter_Lot1$PSI), Variance= var(filter_Lot1$PSI), Standard_Deviation= sd(filter_Lot1$PSI))
-Summary_Lot2 <- filter_Lot2 %>% group_by(Manufacturing_Lot) %>% summarize(Mean= mean(filter_Lot2$PSI), Median= median(filter_Lot2$PSI), Variance= var(filter_Lot2$PSI), Standard_Deviation= sd(filter_Lot2$PSI))
-Summary_Lot3 <- filter_Lot3 %>% group_by(Manufacturing_Lot) %>% summarize(Mean= mean(filter_Lot3$PSI), Median= median(filter_Lot3$PSI), Variance= var(filter_Lot3$PSI), Standard_Deviation= sd(filter_Lot3$PSI))
-
-
-# merging 3 lots summary using rbind()
-
-lot_summary <- rbind(Summary_Lot1, Summary_Lot2, Summary_Lot3)
-view(lot_summary)
+   - ![lot_summary R script](https://github.com/SoonaBritney/Statistics-and-R/blob/main/2_lot_summary_R_script.JPG)
+   
+- lot_summary
 - ![lot_summary](https://github.com/SoonaBritney/Statistics-and-R/blob/main/lot_summary.JPG)
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not? 
