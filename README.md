@@ -50,7 +50,14 @@ library(jsonlite)
    (3) horse power, 
    (4) maintenance cost, 
    (5) safety rating
+   (6) Residual MechaCar vehicles Value after 3 years 
 3. What metric or metrics are you going to test?
+   - cost: We can gather the data of the cost of the MechaCar Vehicle. and other manufacturors, Cost of Vehicle from Kelly Blue Book (https://www.kbb.com/) 
+   - city or highway fuel efficiency: we can gather the data from the MechaCa web site and other other manufacturors' web site. We also collect the data from Kelly Blue Book as well (https://www.kbb.com/) 
+   - horse power: we can gather the data from the MechaCa web site and other other manufacturors' web site. We also collect the data from Kelly Blue Book as well (https://www.kbb.com/) 
+   - maintenance cost: we can gather the data from the MechaCa web site and other other manufacturors' web site. We also collect the data from Kelly Blue Book as well (https://www.kbb.com/)
+   - safety rating: we can gather the data from the MechaCa web site and other other manufacturors' web site. We also collect the data from Kelly Blue Book as well (https://www.kbb.com/)
+   - Residual MechaCar vehicles Value after 3 years: we can gather the data from the MechaCa web site and other other manufacturors' web site. We also collect the data from Kelly Blue Book as well (https://www.kbb.com/)
 - What is the null hypothesis or alternative hypothesis?
 - What statistical test would you use to test the hypothesis? And why?
 - What data is needed to run the statistical test?   
