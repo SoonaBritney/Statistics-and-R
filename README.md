@@ -27,20 +27,13 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 - Load, clean up, and reshape datasets using tidyverse in R.
 The tidyverse package contains libraries such as dplyr, tidyr, and ggplot2. These packages work together to help simplify the process of creating transformed data columns, grouping data using factors, reshaping our two-dimensional data structures, and visualizing our results using plots.
 
-install.packages("tidyverse")
-
-install.packages("jsonlite")
-
-library("tidyverse")
-
-library(jsonlite)
-
 ### Deliverable 1: Linear Regression to Predict MPG
 
 1. Scope: Used the library("tidyverse") to load the dpylr package.
 2. Import and read the MechaCar_mpg.csv
 3. Perform the Perform linear regression using the lm() function. In the lm() function, pass in all six variables (i.e., columns), and add the dataframe you created above as the data parameter.
 4. Using the summary() function, determine the p-value and the r-squared value for the linear regression model.
+5. Findings: Vehicles length, weight, and ground cleanrance is postivly corelated with mpg. Although, Sploiler Angle, and AWD are negativly related to mpg.  
 
 ![linear regression summary](https://github.com/SoonaBritney/Statistics-and-R/blob/main/1_multiple_linear_model.JPG)
 
@@ -49,9 +42,13 @@ library(jsonlite)
 ![scatter plot - vehicle length](https://github.com/SoonaBritney/Statistics-and-R/blob/main/scatterplot_vehicle_length.JPG)
 
 ![scatter plot - vehicle weight](https://github.com/SoonaBritney/Statistics-and-R/blob/main/scatterplot_vehicle_weight.JPG)
+
 ![scatter plot - spolier angle](https://github.com/SoonaBritney/Statistics-and-R/blob/main/scatterplot_vehicle_spoiler_angle.JPG)
+
 ![scatter plot - grund clearance](https://github.com/SoonaBritney/Statistics-and-R/blob/main/scatterplot_ground_clearance.JPG)
+
 ![scatter plot - AWD](https://github.com/SoonaBritney/Statistics-and-R/blob/main/scatterplot_AWD.JPG)
+
 ![scatter plot - mpg](https://github.com/SoonaBritney/Statistics-and-R/blob/main/scatterplot_mpg.JPG)
 
 ### Deliverable 2: Summary Statistics on Suspension Coils
