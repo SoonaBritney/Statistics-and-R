@@ -59,6 +59,13 @@ library(jsonlite)
    - safety rating: we can gather the data from the MechaCa web site and other other manufacturors' web site. We also collect the data from Kelly Blue Book as well (https://www.kbb.com/)
    - Residual MechaCar vehicles Value after 3 years: we can gather the data from the MechaCa web site and other other manufacturors' web site. We also collect the data from Kelly Blue Book as well (https://www.kbb.com/)
 - What is the null hypothesis or alternative hypothesis?
+  - H0:
+  - H1:
 - What statistical test would you use to test the hypothesis? And why?
-- What data is needed to run the statistical test?   
+   -
+- What data is needed to run the statistical test?  
+   - We will use the reliable data source to statistically analize the MechaCar Vehicles against other vehicles. 
+   - We can pull the KBB data by using web scrapping technics we learned Module 10: Mission to Mars - Web Scraping with HTML/CSSchapter
+   - Or we can use the KBB database for developers (http://developer.kbb.com/). KBB Developer's database is offering API, or web service, so we can easily to connect and pull the data for our R statistics analysis.
+   - 
 
