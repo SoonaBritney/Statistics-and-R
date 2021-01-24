@@ -120,9 +120,20 @@ Using R, perform t-tests to determine if all manufacturing lots and each lot ind
    - maintenance cost: we can gather the data from the MechaCa web site and other other manufacturors' web site. We also collect the data from Kelly Blue Book as well (https://www.kbb.com/)
    - safety rating: we can gather the data from the MechaCa web site and other other manufacturors' web site. We also collect the data from Kelly Blue Book as well (https://www.kbb.com/)
    - Residual MechaCar vehicles Value after 3 years: we can gather the data from the MechaCa web site and other other manufacturors' web site. We also collect the data from Kelly Blue Book as well (https://www.kbb.com/)
+
 - What is the null hypothesis or alternative hypothesis?
-  - H0:
-  - H1:
+  - H0: The null hypothesis is also known as H0 and is generally the hypothesis that can be explained by random chance.
+  - **Null Hypothesis: MechaCar Vehicle is excellent car, so the mean of the follwoing variable is above the total mean on (1) cost, (2) city or highway fuel efficiency, (3) horse power, (4) maintenance cost, (5) safety rating, (6) Residual MechaCar vehicles Value after 3 years**  
+  
+  - Ha: The alternate hypothesis is also known as Ha and is generally the hypothesis that is influenced by non-random events.
+  - **Alternative hypothesisa: MechaCar Vehicle is excellent car, so the mean of the follwoing variable is above the total mean on (1) cost, (2) city or highway fuel efficiency, (3) horse power, (4) maintenance cost, (5) safety rating, (6) Residual MechaCar vehicles Value after 3 years**  
+
+- We will follow Hypothesis Testing in Five Stepsas below. 
+   1. Generate a null hypothesis, its corresponding alternate hypothesis, and the significance level.
+   2. Identify a statistical analysis to assess the truth of the null hypothesis.
+   3. Compute the p-value using statistical analysis.
+   4. Compare p-value to the significance level.
+   5. Reject (or fail to reject) the null hypothesis and generate the conclusion.
 - What statistical test would you use to test the hypothesis? And why? 
    - Since MechCar Vehicle will be compared with many different vechicle manufactors' in different category (e.g. sedan, SUV, truck, etc.) we should use
    - ANOVA
