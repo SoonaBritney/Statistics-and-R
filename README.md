@@ -77,16 +77,16 @@ _
 ### Deliverable 3: T-Test on Suspension Coils
 Using R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
-1. T-Test sample data vs. population Total
+1. T-Test for Total
   - ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_TOTAL.JPG) 
    
-2. T-Test Lot1: (PSI mean = 1500)
+2. T-Test Lot1:
 - ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot1_1500.JPG)   
    
-3. T-Test Lot2: (PSI mean = 1500)
+3. T-Test Lot2:
  - ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot2_1500.JPG)   
    
-4. T-Test Lot3: (PSI mean = 1500)
+4. T-Test Lot3:
  - ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot3_1500.JPG)      
 
 #### Deliverable T-Test Conclsuion:
