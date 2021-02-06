@@ -77,25 +77,25 @@ Using R, perform t-tests to determine if all manufacturing lots and each lot ind
 1. T-Test sample data vs. population
    ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_sample_population_comparison.JPG)
 
-2. T-Test sample data vs. filted population (PSI > 1500)
+2. T-Test TOTAL sample data vs. filted population (PSI > 1500)
    ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_TOTAL.JPG) 
    
-3. T-Test Lot1 data vs. population
+3. T-Test Lot1:
    ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot1_population.JPG)
 
-4. T-Test sample data vs. filted population (PSI > 1500)
+4. T-Test Lot1:
    ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot1_1500.JPG)   
    
-5. T-Test Lot2 data vs. population
+5. T-Test Lot2:
    ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot2_population.JPG)
 
-6. T-Test sample data vs. filted population (PSI > 1500)
+6. T-Test Lot2:
    ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot2_1500.JPG)   
    
-7. T-Test Lot3 data vs. population
+7. T-Test Lot3:
    ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot3_population.JPG)
 
-8. T-Test sample data vs. filted population (PSI > 1500)
+8. T-Test Lot3:
    ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot3_1500.JPG)      
 
 #### Deliverable T-Test Conclsuion:
