@@ -93,10 +93,10 @@ Using R, perform t-tests to determine if all manufacturing lots and each lot ind
  - ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot3_1500.JPG)      
 
 #### Deliverable T-Test Conclsuion:
-- when we see the p-value of each T-Test results, p-value needs to be < 0.05 to be significant. Thus, we conclude the below T-test results are only significant.
-   - When the polulation data is filted as PSI >1500
-         - T-test with Lot2 randome sample data (p-value: 0.004672)
-         - T-test with Lot3 randome sample data (p-value: 0.0002885)
+- **For p = .05, only Lot 1, Lot 2 are significant.
+   - **T-test with Lot1 randome sample data (p-value: 1)
+   - **T-test with Lot2 randome sample data (p-value: 0.6072)
+   - **T-test with Lot3 randome sample data (p-value: 0.004168)
       
 
 
