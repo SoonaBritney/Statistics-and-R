@@ -85,10 +85,10 @@ Using R, perform t-tests to determine if all manufacturing lots and each lot ind
  - ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot3_1500.JPG)      
 
 #### Deliverable 3 T-Test Conclsuion:
-1. **For p = .05, only Lot 1, Lot 2 are significant.**
-2. **T-test with Lot1 randome sample data (p-value: 1)**
-3. **T-test with Lot2 randome sample data (p-value: 0.6072)**
-4. **T-test with Lot3 randome sample data (p-value: 0.004168)**
+1. **For p = .05, when we see the attached T-Test results, only Lot 1, Lot 2 are significant.**
+2. T-test with Lot1 randome sample data (p-value: 1)
+3. T-test with Lot2 randome sample data (p-value: 0.6072)
+4. T-test with Lot3 randome sample data (p-value: 0.004168)
       
 
 
