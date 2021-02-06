@@ -75,28 +75,28 @@ _
 Using R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
 1. T-Test sample data vs. population
-   ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_sample_population_comparison.JPG)
+  - ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_sample_population_comparison.JPG)
 
 2. T-Test TOTAL sample data vs. filted population (PSI > 1500)
-   ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_TOTAL.JPG) 
+  - ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_TOTAL.JPG) 
    
 3. T-Test Lot1:
-   ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot1_population.JPG)
+  - ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot1_population.JPG)
 
 4. T-Test Lot1:
-   ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot1_1500.JPG)   
+  - ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot1_1500.JPG)   
    
 5. T-Test Lot2:
-   ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot2_population.JPG)
+  - ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot2_population.JPG)
 
 6. T-Test Lot2:
-   ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot2_1500.JPG)   
+  - ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot2_1500.JPG)   
    
 7. T-Test Lot3:
-   ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot3_population.JPG)
+  - ![T-Test sample data vs. population](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot3_population.JPG)
 
 8. T-Test Lot3:
-   ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot3_1500.JPG)      
+  - ![T-Test sample data vs. filteredpopulation](https://github.com/SoonaBritney/Statistics-and-R/blob/main/T-Test_lot3_1500.JPG)      
 
 #### Deliverable T-Test Conclsuion:
 - when we see the p-value of each T-Test results, p-value needs to be < 0.05 to be significant. Thus, we conclude the below T-test results are only significant.
