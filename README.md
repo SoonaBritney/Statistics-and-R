@@ -86,9 +86,9 @@ Using R, perform t-tests to determine if all manufacturing lots and each lot ind
 
 #### Deliverable 3 T-Test Conclsuion:
 1. **For p = .05, only Lot 1, Lot 2 are significant.**
-   -**T-test with Lot1 randome sample data (p-value: 1)**
-   -**T-test with Lot2 randome sample data (p-value: 0.6072)**
-   -**T-test with Lot3 randome sample data (p-value: 0.004168)**
+2. **T-test with Lot1 randome sample data (p-value: 1)**
+3. **T-test with Lot2 randome sample data (p-value: 0.6072)**
+4. **T-test with Lot3 randome sample data (p-value: 0.004168)**
       
 
 
