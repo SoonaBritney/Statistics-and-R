@@ -23,9 +23,11 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 - Identify key characteristics of A/B and A/A testing.
 - Determine the most appropriate statistical test for a given hypothesis and dataset.
 
-### Summary
-- Load, clean up, and reshape datasets using tidyverse in R.
-The tidyverse package contains libraries such as dplyr, tidyr, and ggplot2. These packages work together to help simplify the process of creating transformed data columns, grouping data using factors, reshaping our two-dimensional data structures, and visualizing our results using plots.
+### Conclusion Summary
+
+- Vehicles length, weight, and ground cleanrance is postivly corelated with mpg. 
+- Although, Sploiler Angle, and AWD are negativly related to mpg.
+
 
 ### Deliverable 1: Linear Regression to Predict MPG
 
