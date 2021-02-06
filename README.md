@@ -138,7 +138,7 @@ Using R, perform t-tests to determine if all manufacturing lots and each lot ind
    - Since MechCar Vehicle will be compared with many different vechicle manufactors' in different category (e.g. sedan, SUV, truck, etc.) we should use
    - **ANOVA**:  ANOVA would work if you are comparing multiple groups 
    - One tailed **Two Sample T-Test**: would work if you are comparing two
-   - **Not Work with:** Chi-Squared Test, since it is not categorial, Simple Linear Regression and Multiple Linear Regression are not test. 
+   - **Not Work with:** Chi-Squared Test, (since it is not categorial), Simple Linear Regression and Multiple Linear Regression (these are not test). 
    - ![selecting appropiate statistics](https://github.com/SoonaBritney/Statistics-and-R/blob/main/Capture_selecting_appropriate_statistics.JPG)
 
 - What data is needed to run the statistical test?  
