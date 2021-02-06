@@ -37,11 +37,11 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 - **Vehicles length, weight, and ground cleanrance is postivly corelated with mpg.
 - **Vehicles' Sploiler Angle, and AWD are negativly related to mpg
 - **It means, we can predict higher mpg performance when the length of the vehicle is longer, the weight of the vehicle is heavier, and the gound clearnace of the vehicle.
-- **For p = .05, only length and clearance are significant
+- **For p = .05, only length and clearance are significant**
 - 2) Is the slope of the linear model considered to be zero? Why or why not? 
 - **As we can see the plots, slops are not zero**
-- **Although AWD is is the only variable with a negative relation to mpg, and we consider the slop is zero.
-- **For p = .05, only length and clearance are significant**. 
+- **Although AWD is is the only variable with a negative relation to mpg, and we consider the slop is zero.**
+
 
 ![linear regression summary](https://github.com/SoonaBritney/Statistics-and-R/blob/main/1_multiple_linear_model.JPG)
 
