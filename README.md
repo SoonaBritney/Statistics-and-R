@@ -122,10 +122,10 @@ Using R, perform t-tests to determine if all manufacturing lots and each lot ind
 
 - What is the null hypothesis or alternative hypothesis?
   - H0: The null hypothesis is also known as H0 and is generally the hypothesis that can be explained by random chance.
-  - **Null Hypothesis: MechaCar is manufacturing excellent cars, so the mean of the follwoing variable is above the total mean against all the vehicles out there on (1) cost, (2) city or highway fuel efficiency, (3) horse power, (4) maintenance cost, (5) safety rating, (6) Residual MechaCar vehicles Value after 3 years**  
-  
+  - **Null Hypothesis: There isn't any difference between the groups. 
+    
   - Ha: The alternate hypothesis is also known as Ha and is generally the hypothesis that is influenced by non-random events.
-  - **Alternative hypothesisa: MechaCar is NOT manufacturing excellent cars, so the mean of the follwoing variable is not above the total mean against all the vehicles out there on (1) cost, (2) city or highway fuel efficiency, (3) horse power, (4) maintenance cost, (5) safety rating, (6) Residual MechaCar vehicles Value after 3 years**  
+  - **Alternative hypothesisa: There "is" a difference between the groups. MechaCar is manufacturing excellent cars, so the mean of the follwoing variable is not above the total mean against all the vehicles out there on (1) cost, (2) city or highway fuel efficiency, (3) horse power, (4) maintenance cost, (5) safety rating, (6) Residual MechaCar vehicles Value after 3 years**  
 
       H0 : PH = 0.5,
       Ha : PH ≠ 0.5
